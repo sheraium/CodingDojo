@@ -20,5 +20,13 @@ namespace PokerHand
             Assert.AreEqual(SuitType.Diamond, card.Suit);
             Assert.AreEqual(11, card.Number);
         }
+
+        [TestMethod]
+        public void CQ()
+        {
+            var card = new Card("cq");
+            Assert.AreEqual(SuitType.Club, card.Suit);
+            Assert.AreEqual(12, card.Number);
+        }
     }
 }

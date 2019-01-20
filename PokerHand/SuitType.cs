@@ -3,6 +3,7 @@ namespace PokerHand
     public enum SuitType
     {
         Spade,
-        Diamond
+        Diamond,
+        Club
     }
 }
