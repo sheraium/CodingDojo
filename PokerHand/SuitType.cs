@@ -4,6 +4,7 @@ namespace PokerHand
     {
         Spade,
         Diamond,
-        Club
+        Club,
+        Heart
     }
 }

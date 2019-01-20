@@ -28,5 +28,13 @@ namespace PokerHand
             Assert.AreEqual(SuitType.Club, card.Suit);
             Assert.AreEqual(12, card.Number);
         }
+
+        [TestMethod]
+        public void HK()
+        {
+            var card = new Card("hk");
+            Assert.AreEqual(SuitType.Heart, card.Suit);
+            Assert.AreEqual(13, card.Number);
+        }
     }
 }
