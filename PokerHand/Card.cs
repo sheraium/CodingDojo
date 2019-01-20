@@ -10,7 +10,18 @@ namespace PokerHand
             {
                 Suit = SuitType.Spade;
             }
-            Number = int.Parse(cardCode.Substring(1));
+            if (suit == "D")
+            {
+                Suit = SuitType.Diamond;
+            }
+            if (cardCode.Substring(1) == "J")
+            {
+                Number = 11;
+            }
+            else
+            {
+                Number = int.Parse(cardCode.Substring(1));
+            }
         }
 
         public SuitType Suit { get; }

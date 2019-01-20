@@ -13,10 +13,4 @@ namespace PokerHand
             Assert.AreEqual("Winnie Win, Kind: High Card", actual);
         }
     }
-
-    public enum SuitType
-    {
-        Spade,
-        Diamond
-    }
 }
