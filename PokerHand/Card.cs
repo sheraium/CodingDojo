@@ -8,11 +8,13 @@ namespace PokerHand
             {
                 {"S",SuitType.Spade },
                 {"D",SuitType.Diamond },
+                {"C",SuitType.Club },
             };
 
         private Dictionary<string, int> _numberLookup = new Dictionary<string, int>()
             {
                 {"J",11 },
+                {"Q",12 },
             };
 
         public Card(string cardCode)
